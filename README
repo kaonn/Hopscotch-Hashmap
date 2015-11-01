@@ -1,0 +1,18 @@
+hashmap.h 
+  - defines how the hashmap should behave
+hopscotch.c 
+  - implements the hopscotch hash scheme
+tests.c 
+  - tests the get and delete functions of the scheme.
+  - by default contains 2 tests of sizes 50000 and 500000
+gen.c
+  - generates the key value pairs used by tests.c
+  - can be used to generate new test cases written to files
+debug.c
+  - interactive mode, insert,get, or delete elements one by one
+  - print the map along the way to see layout
+kv_*
+  - test files
+*.out 
+  - binaries
+
